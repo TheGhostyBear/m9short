@@ -196,3 +196,25 @@ footer {
 .contact {
 	padding: 2em 5em;	
 }
+
+/* the styles for the contact list */
+.contact-list {
+    list-style-type: square;
+    margin-left: 2em;
+}
+
+.contact-list li {
+    padding: 0.5em 0;
+    margin-left: 1em;
+}
+
+.contact-list a {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+.contact-list a:hover,
+.contact-list a:focus {
+    color: var(--primary-color);
+    text-decoration: none;
+}
